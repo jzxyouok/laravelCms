@@ -30,3 +30,10 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 composer create-project laravel/laravel ./laravelCms --prefer-dist
 ```
 
+>如果是直接从git拉取代码则无需创建项目，只需更新laravel包即可。
+
+###更新laravel包
+```sh
+cd ./laravelCms
+composer.phar update
+```
