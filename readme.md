@@ -1,6 +1,7 @@
 # laravelCms
 使用laravel框架搭建一个内容管理系统，练习如何使用laravel框架。
 > 参考网址: http://laravelacademy.org/post/2720.html
+> 
 > 关于composer操作指令，http://docs.phpcomposer.com/03-cli.html#create-project
 
 ###安装步骤
