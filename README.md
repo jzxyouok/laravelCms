@@ -46,3 +46,24 @@ composer.phar update
 php artisan key:generate
 ```
 
+
+###常用的laravel操作命令
+
+创建迁移，生成的新迁移文件位于database/migrations目录下
+```sh
+php artisan make:migration create_tasks_table --create=tasks
+```
+要运行迁移
+```sh
+php artisan migrate
+```
+
+
+创建模型
+```sh
+php artisan make:model Task
+```
+
+
+
+
