@@ -58,12 +58,24 @@ php artisan make:migration create_tasks_table --create=tasks
 php artisan migrate
 ```
 
-
 创建模型
 ```sh
 php artisan make:model Task
 ```
 
+创建用户认证,开箱即用
+```sh
+php artisan make:auth
+```
 
+创建控制器
+```sh
+php artisan make:controller TaskController
+```
 
+创建Policy
+>Laravel使用“策略”来将授权逻辑组织到单个类中，通常，每个策略都对应一个模型
+```sh
+php artisan make:policy TaskPolicy
+```
 
