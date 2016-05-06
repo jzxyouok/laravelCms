@@ -7,8 +7,14 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class IndexController extends AdminController
+class AdminController extends Controller
 {
+    /**
+     * 构造函数
+     */
+    function __construct(){
+        
+    }
     /**
      * Display a listing of the resource.
      *
@@ -17,7 +23,6 @@ class IndexController extends AdminController
     public function index()
     {
         //
-        echo 'asds';
     }
 
     /**
