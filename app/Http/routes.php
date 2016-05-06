@@ -22,3 +22,6 @@ Route::get('/home', 'HomeController@index');
 Route::get('/tasks', 'TaskController@index');
 Route::post('/task', 'TaskController@store');
 Route::delete('/task/{task}', 'TaskController@destory');
+Route::group(['prefix' => 'Admin', 'namespace' => 'Admin'], function(){
+    Route::get('/', 'IndexController@index');
+});
